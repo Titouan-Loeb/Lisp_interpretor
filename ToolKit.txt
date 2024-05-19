@@ -1,0 +1,45 @@
+LISP - Tool kit:
+
+-------
+
+QUOTE: Distinguish data from code
+
+COND: Teste plusieur condition (switch case) et exécute le resultat à droite de la condition (chaque teste (+ resultat) est écrit entre crochets)
+
+LAMBDA: Définie (et renvoi une procédure)
+
+DEFINE: Décrit un variable ou une fonction
+
+LET: Créer une ou plusieur variables (entre crochet pour chaque variable, nom + valeur) le deuxième argument est le body de l'exécution qui va utiliser ces variables
+
+-------
+
+CONS: List constructor
+
+CAR: prend la premiere data de la list
+
+CDR: renvoit la fin de la list (sans la première data)
+
+...
+
+-------
+
+ATOM?: Renvoi true "#t" si le premier argument est paire ou si c'est une liste vide (si c'est une liste non video, il renvoi false "#f"
+
+EQ?: Renvoi true si les deux arguments sont égaux. Deux liste ne sont jamais égales sauf si ce sont toutes les deux des listes vides
+
+<: Renvoi true si l'élément de gauche est inférieur à l'élément de droite, revoi faux si ce n'est pas le cas. Les listes ne sont pas acceptées
+
+-------
+
++: Addition
+
+*: Multiplication
+
+-: Subtraction
+
+DIV: Division
+
+MOD: Modulo
+
+-------
